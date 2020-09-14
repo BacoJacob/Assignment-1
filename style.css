@@ -1,0 +1,48 @@
+body {
+  background-color: lightcoral;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+p {
+  font-family: sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+p1 {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 12px;
+}
+
+img {
+width: 80%; height: 20%; align-content: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 150px;
+  background-color: white;
+}
+
+li a {
+display: block;
+color: black;
+padding: 5px 10px;
+text-decoration: none;
+}
+
+li a:hover {
+  background-color: lightgray;
+  color: white;
+}
+
+li b {
+color: black;
+text-decoration: none;
+}
