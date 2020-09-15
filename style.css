@@ -46,3 +46,34 @@ li b {
 color: black;
 text-decoration: none;
 }
+
+table, th, td {
+  border: 1px solid black;
+}
+
+#tags {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#tags td, #tags th {
+  border: 1px soild #ddd;
+  padding: 8px;
+}
+
+#tags tr:nth-child(even){
+  background-color: white;
+}
+
+#tags tr:hover {
+  background-color: #ddd;
+}
+
+#tags th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: blue;
+  color: white;
+}
