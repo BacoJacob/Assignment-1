@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Assignment 1</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="wrapper">
+    <header class="box header">
+    <h1><image src ="images/banner1.jpg" alt="Banner of a city under construction"></h1>
+    </header>
+    <nav class="box nav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="page1.html">Page 1</a></li>
+        <li><a href="page2.html">Page 2</a></li>
+        <li><a href="page3.html">Page 3</a></li>
+        <li><a href="https://www.columbusstate.edu/">CSU</a></li>
+      </ul>
+    </nav>
+    <main class="box middle">
+      <form name="myForm" action="https://webdevbasics.net/scripts/yoga.php" onsubmit="return validateForm()" method="post">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" placeholder="John" maxlength="50" required><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" placeholder="Doe" maxlength="50" required><br>
+
+        <label for="email">Enter your email:</label><br>
+        <input type="email" id="email" name="email" placeholder="example@gmail.com" maxlength="200" required><br>
+
+        <label for="phonenum">Enter your phone number:</label><br>
+        <input type="tel" id="phonenum" name="phonenum" placeholder="###-###-####" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+        <br>
+        <label for="state">State of resisdence:</label><br>
+        <select id="states" name="states" required>
+          <option value="Blank"></option>
+          <option value="AL">AL</option>
+          <option value="FL">FL</option>
+          <option value="GA">GA</option>
+        </select><br>
+
+        <label for="birthdate">Birth Date:</label>
+        <input type="date" id="birthdate" name="birthdate" required><br>
+
+        <label for="Uname">Username:</label><br>
+        <input type="text" id="Uname" name="Uname" placeholder="John Doe" maxlength="200" required><br>
+        <label for="pass">Password:</label><br>
+        <input type="password" id="pass" name="pass" placeholder="********" maxlength="200" required><br>
+        <label for="rpass">Confirm Password:</label><br>
+        <input type="password" id="rpass" name="rpass" placeholder="********" maxlength="200" required><br>
+
+        <input type="submit" value="Submit">
+      </form>
+    </main>
+    <div class="box right">
+      <p>Add page 3 to your site. Update the nav on each page. Page 3 will have a form and JavaScript form validation. You can repurpose the form you created in a previous exercise. Please review the feedback you received for the form and fix whatever was criticized. You should have at minimum: first and last name, email, username, password, reenter password, and comment text box. You will add a phone number field to this.
+      </p>
+    </div>
+    <footer class="box footer"><p1>©2020 Jacob and Co | Jacob Casina | 555-083-5290</p1>
+    </footer>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

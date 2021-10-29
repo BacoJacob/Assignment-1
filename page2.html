@@ -7,16 +7,20 @@
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-    <h1><image src ="images/banner1.jpg"></h1>
-    <nav>
+    <div class="wrapper">
+    <header class="box header">
+    <h1><image src ="images/banner1.jpg" alt="Banner of a city under construction"></h1>
+    </header>
+    <nav class="box nav">
       <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="page1.html">Page 1</a></li>
         <li><a href="page2.html">Page 2</a></li>
+        <li><a href="page3.html">Page 3</a></li>
         <li><a href="https://www.columbusstate.edu/">CSU</a></li>
       </ul>
     </nav>
-    <main>
+    <main class="box middle">
       <p>Tags and Attributes I use.</p>
       <table id="tags">
         <tr>
@@ -24,29 +28,33 @@
           <th>Attributes</th>
         </tr>
         <tr>
-          <td>nav</td>
-          <td>src</td>
-        </tr>
-        <tr>
-          <td>li</td>
-          <td>style</td>
-        </tr>
-        <tr>
-          <td>body</td>
-          <td>id</td>
-        </tr>
-        <tr>
-          <td>h1</td>
-          <td>href</td>
-        </tr>
-        <tr>
-          <td>table</td>
-          <td>color</td>
+          <td>
+            <ul class="a">
+              <li class="a">nav</li>
+              <li class="a">li</li>
+              <li class="a">body</li>
+              <li class="a">h1</li>
+              <li class="a">table</li>
+            </ul>
+          </td>
+          <td>
+            <ol>
+              <li class="a">src</li>
+              <li class="a">style</li>
+              <li class="a">id</li>
+              <li class="a">href</li>
+              <li class="a">color</li>
+            </ol>
+          </td>
         </tr>
       </table>
     </main>
-    <footer><p1>©2020 Jacob and Co | Jacob Casina | 555-083-5290</p1>
+    <div class="box right">
+      <p>Make a webpage that uses a table to create two columns. In the left column should be a bulleted list of 5 html tags you have learned about. In the right column should be a numbered list of 5 attributes of html tags you have learned about. There should be a header row with HTML tags and Attributes. </p>
+    </div>
+    <footer class="box footer"><p1>©2020 Jacob and Co | Jacob Casina | 555-083-5290</p1>
     </footer>
+    </div>
     <script src="script.js"></script>
   </body>
 </html>
